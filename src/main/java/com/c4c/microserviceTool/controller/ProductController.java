@@ -27,6 +27,7 @@ import com.c4c.microserviceTool.mashup.ProductMashupService;
 @RequestMapping(path = "/api/product")
 public class ProductController {
 
+	@Autowired
 	private final ProductMashupService productMashupService;
 
 	@Autowired
